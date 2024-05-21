@@ -1,0 +1,15 @@
+<!-- expenses/templates/index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Главная страница</title>
+</head>
+<body>
+    <h1>Добро пожаловать на главную страницу!</h1>
+    <ul>
+        <li><a href="{% url 'add_expense' %}">Добавить расход</a></li>
+        <li><a href="{% url 'balance' %}">Баланс</a></li>
+        <li><a href="{% url 'category_statistics' %}">Статистика по категориям</a></li>
+    </ul>
+</body>
+</html>
